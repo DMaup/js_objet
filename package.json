@@ -1,0 +1,21 @@
+{
+  "name": "js_objet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jquery-slim": "^3.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-minifier": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pierre Mar <pierre.mar.66000@gmail.com> (https://github.com/Imrikmar66/)",
+  "license": "ISC"
+}

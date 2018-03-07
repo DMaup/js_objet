@@ -1,0 +1,23 @@
+html, body, #app, #map, #interface {
+    margin: 0px;
+    height: 100%;
+}
+#app {
+    display: flex;
+}
+#map {
+    width: 70%;
+}
+#interface {
+    width: calc( 30% - 20px );
+    padding: 10px;
+}
+label {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 5px 0px;
+}
+fieldset label {
+    width: 100px;
+}

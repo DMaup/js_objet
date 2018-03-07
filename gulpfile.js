@@ -2,7 +2,7 @@ var gulp = require("gulp");
 var browserSync = require("browser-sync").create();
 var browserify = require("gulp-browserify");
 var minifier = require("gulp-minifier");
-var path = "notes";
+var path = "maps";
 var mainjs = "main";
 
 gulp.task("prod", ["browserify"], function(){
@@ -31,7 +31,7 @@ gulp.task("browserify", function(){
 
 });
 
-gulp.task("serve", function(){
+gulp.task("serve", ["browserify"], function(){
 
     browserSync.init({
         server: "./" + path + "/dist"

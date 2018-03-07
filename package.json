@@ -4,6 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
+    "google-maps": "^3.2.1",
     "jquery": "^3.3.1",
     "jquery-slim": "^3.0.0"
   },
